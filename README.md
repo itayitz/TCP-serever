@@ -17,7 +17,7 @@ output: List of All Index Groups Achievements are sorted by number of indices an
 Task 2 - Finding more routes from a source index to a target index
 input : 2D array up to size 50X50 , source index , target index 
 
-*The matrix is binary - if there is an index value of 1 it means that there is a side between the indexes in the matrix
+* The matrix is binary - if there is an index value of 1 it means that there is a side between the indexes in the matrix
 A value of 0 indicates that there is no side between them
 
 The matrix can be relied upon to be square
