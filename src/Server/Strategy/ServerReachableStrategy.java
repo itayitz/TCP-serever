@@ -100,17 +100,6 @@ public class ServerReachableStrategy implements IServerStrategy {
         return SCC;
     }
 
-    public static void main(String[] args) throws FileNotFoundException, ExecutionException, InterruptedException {
-        long startTime = System.nanoTime();
-        ServerReachableStrategy strategy = new ServerReachableStrategy();
-        Submarine submarineStrategy=new Submarine();
-        Matrix matrix = strategy.readMatrixFromFile();
-//        Matrix matrix = new Matrix(1000,1000);
-        System.out.println(matrix);
-        strategy.splitMatrix(matrix);
-        long endTime = System.nanoTime();
-        System.out.println("Time : "+ ((endTime-startTime)/1000000000));
-    }
 
     /**
      *that function split the origin matrix to sub-matrices
