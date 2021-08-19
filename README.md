@@ -1,4 +1,4 @@
-# algorithmic-operations-server-
+# TCP Server - Client
 JAVA 
 
 A server that can perform different algorithmic operations depending on the type of TASK received, 
@@ -34,3 +34,4 @@ rules :
 3. There cannot be two ones diagonally unless for both the previous sections are met
 4. The minimum distance between two submarines is one slot
 
+Task 4 - 
